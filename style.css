@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Poppins;
+  src: url(fonts/Poppins-Thin.ttf);
+}
+
+@keyframes borderanims {
+  0% {
+    border: 3.5px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+  }
+  10% {
+    border: 3.5px solid rgb(255, 255, 0);
+    color: rgb(255, 255, 0);
+  }
+  20% {
+    border: 3.5px solid rgb(0, 245, 0);
+    color: rgb(0, 245, 0);
+  }
+  30% {
+    border: 3.5px solid rgb(25, 0, 255);
+    color: rgb(25, 0, 255);
+  }
+  40% {
+    border: 3.5px solid rgb(255, 0, 234);
+    color: rgb(255, 0, 234);
+  }
+  50% {
+    border: 3.5px solid rgb(0, 183, 255);
+    color: rgb(0, 183, 255);
+  }
+  60% {
+    border: 3.5px solid rgb(255, 115, 0);
+    color: rgb(255, 115, 0);
+  }
+  70% {
+    border: 3.5px solid rgb(60, 0, 88);
+    color: rgb(60, 0, 88);
+  }
+  80% {
+    border: 3.5px solid rgb(0, 83, 25);
+    color: rgb(0, 83, 25);
+  }
+  90% {
+    border: 3.5px solid rgb(255, 0, 43);
+    color: rgb(255, 0, 43);
+  }
+  100% {
+    border: 3.5px solid rgb(30, 0, 54);
+    color: rgb(30, 0, 54);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.main-contaienr {
+  width: 80%;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.profile-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-div {
+  width: 45%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+body,
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-Emanuel {
+  border-radius: 100%;
+  border: 3.5px solid red;
+  animation-name: borderanims;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  width: 40%;
+  margin-top: 15px;
+}
+
+.about-div,
+h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generic-li-info {
+  margin: 0px 0px 0px 35px;
+}
+
+.github-icon {
+  width: 14px;
+  margin-right: 3px;
+}
+
+.linkedin-icon {
+  width: 16px;
+  margin-right: 3px;
+}
+
+.email-icon {
+  width: 14px;
+  margin-right: 3px;
+  border-radius: 100%;
+}
+
+.saywithme,
+.h-profile {
+  animation-name: borderanims;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+.h-profile {
+  margin-bottom: -9px;
+  font-size: 19px;
+}
